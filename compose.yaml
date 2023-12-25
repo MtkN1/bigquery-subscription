@@ -1,0 +1,5 @@
+services:
+  bigquery_subscription:
+    build:
+      context: .
+    restart: unless-stopped
